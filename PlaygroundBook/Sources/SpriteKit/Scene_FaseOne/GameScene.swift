@@ -38,7 +38,7 @@ public class GameScene: SKScene {
         let atom = self.getNode(withName: "atom")
         atom!.texture = SKTexture.init(imageNamed: "atomR")
         
-        if lightIsVisible{
+        if lightIsVisible == false{
             
             light!.alpha = 0
             self.childNode(withName: "light")!.alpha = 0

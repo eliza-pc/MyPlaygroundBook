@@ -13,7 +13,7 @@ import SpriteKit
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
 
-public var lightIsVisible = true
+public var lightIsVisible = false
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
