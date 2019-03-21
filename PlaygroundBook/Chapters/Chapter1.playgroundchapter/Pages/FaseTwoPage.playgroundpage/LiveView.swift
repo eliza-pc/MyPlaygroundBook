@@ -17,6 +17,6 @@ if let scene = GameScene(fileNamed: "FaseTwoScene"){
     view.presentScene(scene)
 }
 
-
+//TESTE
 PlaygroundPage.current.liveView = view
 
