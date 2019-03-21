@@ -15,15 +15,14 @@ public class IntroductionScene: SKScene {
         
         let mrCo2 = self.getNode(withName: "MrCO2")
         mrCo2!.texture = SKTexture.init(imageNamed: "co2")
-        
+
         
     }
-    
     
     func getNode(withName name: String )-> SKSpriteNode? {
         let node = self.childNode(withName: name) as? SKSpriteNode
         return node
     }
-    
+
 }
 

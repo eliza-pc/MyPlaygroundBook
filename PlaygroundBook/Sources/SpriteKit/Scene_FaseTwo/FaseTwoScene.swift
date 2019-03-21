@@ -15,7 +15,7 @@ public class FaseTwoScene: SKScene {
         
         let fase2 = self.getNode(withName: "Fase2")
         fase2!.texture = SKTexture.init(imageNamed: "fase2")
-        
+       
     }
     
     
