@@ -8,15 +8,17 @@
 import SpriteKit
 import PlaygroundSupport
 
-let frame = CGRect.init(x: 0, y: 0, width: 680, height: 480)
-let view = SKView.init(frame: frame)
+//
+//let frame = CGRect.init(x: 0, y: 0, width: 680, height: 480)
+//let view = SKView.init(frame: frame)
+//
+//if let scene = GameScene(fileNamed: "GameScene"){
+//    scene.scaleMode = .aspectFill
+//
+//    view.presentScene(scene)
+//}
 
-if let scene = GameScene(fileNamed: "GameScene"){
-    scene.scaleMode = .aspectFill
-    
-    view.presentScene(scene)
-}
 
-
-PlaygroundPage.current.liveView = view
+//PlaygroundPage.current.liveView = returnSprite()
+PlaygroundSupport.PlaygroundPage.current.liveView = returnSprite()
 

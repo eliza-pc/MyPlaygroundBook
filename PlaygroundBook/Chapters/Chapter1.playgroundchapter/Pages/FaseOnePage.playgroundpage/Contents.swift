@@ -1,9 +1,24 @@
 //#-hidden-code
-//
-//  See LICENSE folder for this template’s licensing information.
-//
-//  Abstract:
-//  The Swift file containing the source code edited by the user of this playground book.
-//
+import UIKit
+import PlaygroundSupport
+
+
 //#-end-hidden-code
-let str = "Hello, playground"
+
+//Escolha a cor do dancarino. Dica : Se
+
+ lightIsVisible =  /*#-editable-code*/false/*#-end-editable-code*/
+
+//#-hidden-code
+//
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, emotion)
+
+//#-end-hidden-code
+
+//:oii
+//:ALLLLL
+
+//#-hidden-code
+PlaygroundPage.current.liveView = returnSprite()
+//#-end-hidden-code

@@ -12,6 +12,9 @@ import SpriteKit
 /// Instantiates a new instance of a live view.
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
+
+public var lightIsVisible = true
+
 public func instantiateLiveView() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
 
@@ -26,6 +29,21 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
     return liveViewController
 }
 
-
+public func returnSprite () -> SKView {
+    // Load the SKScene from ‘GameScene.sks’
+    
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
+    
+    if let scene = GameScene(fileNamed: "GameScene"){
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+    
+    
+}
 
 
