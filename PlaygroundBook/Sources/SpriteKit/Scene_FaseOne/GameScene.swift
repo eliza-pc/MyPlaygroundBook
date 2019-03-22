@@ -13,6 +13,8 @@ public class GameScene: SKScene {
     
     
     var lightBalloon: SKSpriteNode!
+    var rain:SKSpriteNode!
+    var gotas: SKSpriteNode!
     
     override public func didMove(to view: SKView) {
         super.didMove(to: view)
@@ -21,10 +23,7 @@ public class GameScene: SKScene {
         
         let fase1 = self.getNode(withName: "Fase1")
         //fase1!.texture = SKTexture.init(imageNamed: "fase1")
-        
-        lightBalloon = self.childNode(withName: "lightBalloon") as? SKSpriteNode
-       //lightBalloon!.texture = SKTexture.init(imageNamed: "lightQ")
-        
+    
         let waterBalloon = self.getNode(withName: "waterBalloon")
        //waterBalloon!.texture = SKTexture.init(imageNamed: "waterQ")
         
@@ -40,29 +39,36 @@ public class GameScene: SKScene {
         let atom = self.getNode(withName: "atom")
         //atom!.texture = SKTexture.init(imageNamed: "atomR")
         
-
-        if lightIsVisible == false{
-            
-            light!.alpha = 0
-            self.childNode(withName: "light")!.alpha = 0
-           
-        } else{
-            light!.alpha = 1
-           self.childNode(withName: "light")!.alpha = 1
-            
-        }
+        //rain = self.childNode(withName: "chuva") as? SKSpriteNode
+        gotas = self.childNode(withName: "gota") as? SKSpriteNode
         
         
-        if Elemento == .lightEnergy{
+        lightBalloon = self.childNode(withName: "lightBalloon") as? SKSpriteNode
+        //lightBalloon!.texture = SKTexture.init(imageNamed: "lightQ")
+        
+//
+//        if lightIsVisible == false{
+//
+//            light!.alpha = 0
+//            self.childNode(withName: "light")!.alpha = 0
+//
+//        } else{
+//            light!.alpha = 1
+//           self.childNode(withName: "light")!.alpha = 1
+//
+//        }
+        
+        
+        if Elemento == .water{
 
-            lightBalloon!.alpha = 1
+            gotas!.alpha = 1
+            gotas.run(SKAction.repeat(SKAction.animate(with: Array.dicTextures["piscando"]!, timePerFrame: 0.3), count: 1))
 
         }else{
 
-            lightBalloon!.alpha = 0
+            gotas!.alpha = 0
 
         }
-        
         
         
     }
