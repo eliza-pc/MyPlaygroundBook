@@ -11,6 +11,9 @@ import SpriteKit
 
 public class GameScene: SKScene {
     
+    
+    var lightBalloon: SKSpriteNode!
+    
     override public func didMove(to view: SKView) {
         super.didMove(to: view)
         
@@ -19,7 +22,7 @@ public class GameScene: SKScene {
         let fase1 = self.getNode(withName: "Fase1")
         //fase1!.texture = SKTexture.init(imageNamed: "fase1")
         
-        let lightBalloon = self.getNode(withName: "lightBalloon")
+        lightBalloon = self.childNode(withName: "lightBalloon") as? SKSpriteNode
        //lightBalloon!.texture = SKTexture.init(imageNamed: "lightQ")
         
         let waterBalloon = self.getNode(withName: "waterBalloon")
@@ -48,6 +51,18 @@ public class GameScene: SKScene {
            self.childNode(withName: "light")!.alpha = 1
             
         }
+        
+        
+        if Elemento == .lightEnergy{
+
+            lightBalloon!.alpha = 1
+
+        }else{
+
+            lightBalloon!.alpha = 0
+
+        }
+        
         
         
     }

@@ -7,7 +7,9 @@ import PlaygroundSupport
 
 //Escolha a cor do dancarino. Dica : Se
 
- lightIsVisible =  /*#-editable-code*/false/*#-end-editable-code*/
+    lightIsVisible =  /*#-editable-code*/false/*#-end-editable-code*/
+    Elemento = /*#-editable-code*/.water/*#-end-editable-code*/
+
 
 //#-hidden-code
 //

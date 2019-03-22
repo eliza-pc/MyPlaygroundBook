@@ -19,12 +19,16 @@
 		1F5ABA792244101900E76A1C /* waterQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5ABA762244101900E76A1C /* waterQ.png */; };
 		1F5ABA7A2244101900E76A1C /* lightQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5ABA772244101900E76A1C /* lightQ.png */; };
 		1F5ABA7C2244153B00E76A1C /* waterR.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5ABA7B2244153B00E76A1C /* waterR.png */; };
+		1FAF5347224590D400A034E5 /* sunGroup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5344224590D400A034E5 /* sunGroup.png */; };
+		1FAF5348224590D400A034E5 /* aguaGroup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5345224590D400A034E5 /* aguaGroup.png */; };
+		1FAF5349224590D400A034E5 /* co2Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5346224590D400A034E5 /* co2Group.png */; };
 		1FB06BA22243C4DD00981AF2 /* co2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB06BA12243C4DD00981AF2 /* co2@3x.png */; };
 		1FB06BA42243C4FD00981AF2 /* IntroductionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB06BA32243C4FD00981AF2 /* IntroductionScene.swift */; };
 		1FB06BA82243C86000981AF2 /* fase1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB06BA72243C86000981AF2 /* fase1.png */; };
 		1FB06BAA2243C99100981AF2 /* fase2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB06BA92243C99100981AF2 /* fase2.png */; };
 		1FB06BAC2243CA4700981AF2 /* fase3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB06BAB2243CA4700981AF2 /* fase3.png */; };
 		1FF720BD22442DAA006222F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF720BC22442DAA006222F0 /* GameScene.swift */; };
+		1FF720D52245807F006222F0 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF720D42245807F006222F0 /* Elements.swift */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -120,12 +124,16 @@
 		1F5ABA762244101900E76A1C /* waterQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterQ.png; sourceTree = "<group>"; };
 		1F5ABA772244101900E76A1C /* lightQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightQ.png; sourceTree = "<group>"; };
 		1F5ABA7B2244153B00E76A1C /* waterR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterR.png; sourceTree = "<group>"; };
+		1FAF5344224590D400A034E5 /* sunGroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunGroup.png; sourceTree = "<group>"; };
+		1FAF5345224590D400A034E5 /* aguaGroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguaGroup.png; sourceTree = "<group>"; };
+		1FAF5346224590D400A034E5 /* co2Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = co2Group.png; sourceTree = "<group>"; };
 		1FB06BA12243C4DD00981AF2 /* co2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "co2@3x.png"; sourceTree = "<group>"; };
 		1FB06BA32243C4FD00981AF2 /* IntroductionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionScene.swift; sourceTree = "<group>"; };
 		1FB06BA72243C86000981AF2 /* fase1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fase1.png; sourceTree = "<group>"; };
 		1FB06BA92243C99100981AF2 /* fase2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fase2.png; sourceTree = "<group>"; };
 		1FB06BAB2243CA4700981AF2 /* fase3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fase3.png; sourceTree = "<group>"; };
 		1FF720BC22442DAA006222F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1FF720D42245807F006222F0 /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* The carbon of things .playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The carbon of things .playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
@@ -193,6 +201,7 @@
 			children = (
 				1F08A4E82242B012009308D3 /* GameScene.sks */,
 				1FF720BC22442DAA006222F0 /* GameScene.swift */,
+				1FF720D42245807F006222F0 /* Elements.swift */,
 			);
 			path = Scene_FaseOne;
 			sourceTree = "<group>";
@@ -324,6 +333,9 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				1FAF5345224590D400A034E5 /* aguaGroup.png */,
+				1FAF5346224590D400A034E5 /* co2Group.png */,
+				1FAF5344224590D400A034E5 /* sunGroup.png */,
 				1F5ABA752244101900E76A1C /* atomoQ.png */,
 				1F5ABA772244101900E76A1C /* lightQ.png */,
 				1F5ABA762244101900E76A1C /* waterQ.png */,
@@ -468,16 +480,19 @@
 				1F5ABA7C2244153B00E76A1C /* waterR.png in Resources */,
 				1FB06BAA2243C99100981AF2 /* fase2.png in Resources */,
 				1F5ABA7A2244101900E76A1C /* lightQ.png in Resources */,
+				1FAF5348224590D400A034E5 /* aguaGroup.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				1F08A4E92242B012009308D3 /* GameScene.sks in Resources */,
 				1F5ABA782244101900E76A1C /* atomoQ.png in Resources */,
 				1FB06BAC2243CA4700981AF2 /* fase3.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				1FAF5349224590D400A034E5 /* co2Group.png in Resources */,
 				1F0982672243C107009807DA /* FaseTwoScene.sks in Resources */,
 				1F0982632243C0AB009807DA /* IntroductionScene.sks in Resources */,
 				1FB06BA82243C86000981AF2 /* fase1.png in Resources */,
 				1FB06BA22243C4DD00981AF2 /* co2@3x.png in Resources */,
 				1F09826C2243C169009807DA /* FaseThreeScene.sks in Resources */,
+				1FAF5347224590D400A034E5 /* sunGroup.png in Resources */,
 				1F5ABA792244101900E76A1C /* waterQ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF720D52245807F006222F0 /* Elements.swift in Sources */,
 				1FF720BD22442DAA006222F0 /* GameScene.swift in Sources */,
 				1F09826E2243C220009807DA /* FaseThreeScene.swift in Sources */,
 				1F0982692243C11E009807DA /* FaseTwoScene.swift in Sources */,
