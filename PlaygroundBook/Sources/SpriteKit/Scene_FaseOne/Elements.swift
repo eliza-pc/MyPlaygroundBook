@@ -36,3 +36,49 @@ public enum feedBeings{
 }
 
 
+//MARK: First Fase Elements
+
+public enum FirstFotossinteseElement{
+    case water
+    case treeFood
+}
+public enum SecondFotossinteseElement{
+    case lightEnergy
+    case treeFood
+}
+public enum ThirdFotossinteseElement{
+    case carbonDioxide
+    case treeFood
+}
+
+public enum FirstStepOfCarbonTo{
+    case goToAtsmosphere
+    case goSomewhere
+}
+
+public enum SecondStepOfCarbonTo{
+    case goToPlants
+    case goSomewhere
+}
+
+
+
+//MARK: Second Fase Elements
+
+public enum FeedHumanWith{
+    case meat
+    case someFood
+}
+
+public enum FeedCowWith{
+    case plants
+    case someFood
+}
+
+public enum ThirdStepOfCarbon{
+    case goToHumans
+    case goSomewhere
+}
+
+
+

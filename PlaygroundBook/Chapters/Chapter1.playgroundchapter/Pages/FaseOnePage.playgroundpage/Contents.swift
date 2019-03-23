@@ -19,11 +19,11 @@ You can feed the plants by adding some foods that photosintesis provides like:
 */
 
 // Alimente as plantas com os componentes oferecidos pela fotossintese e passe o carbono
-FeedPlantsWith = /*#-editable-code*/.treeFood/*#-end-editable-code*/
-FeedPlantsWith = /*#-editable-code*/.treeFood/*#-end-editable-code*/
-FeedPlantsWith = /*#-editable-code*/.treeFood/*#-end-editable-code*/
-PassCarbonDioxide = /*#-editable-code*/.carbonDioxideTravel/*#-end-editable-code*/
-
+firstFotossinteseElement = /*#-editable-code*/.treeFood/*#-end-editable-code*/
+secondFotossinteseElement = /*#-editable-code*/.treeFood/*#-end-editable-code*/
+thirdFotossinteseElement = /*#-editable-code*/.treeFood/*#-end-editable-code*/
+firstStepOfCarbonTo = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
+secondStepOfCarbonTo = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 
 //#-hidden-code
 PlaygroundSupport.PlaygroundPage.current.liveView = returnGameScene()

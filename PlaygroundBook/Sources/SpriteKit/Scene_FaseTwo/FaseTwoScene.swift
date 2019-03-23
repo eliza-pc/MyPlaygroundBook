@@ -23,7 +23,7 @@ public class FaseTwoScene: SKScene {
     override public func didMove(to view: SKView) {
         
         let fase2 = self.getNode(withName: "Fase2")
-        fase2!.texture = SKTexture.init(imageNamed: "fase2")
+        fase2!.texture = SKTexture.init(imageNamed: "FaseDois")
         
 //MARK: Scene Elements
         
@@ -44,22 +44,24 @@ public class FaseTwoScene: SKScene {
  
 //MARK Users Interactions
         
-        if FeedBeings == .human{
+        
+        if feedHumanWith == .meat{
             humanFood?.run(fade)
         }
-        if FeedBeings == .cow{
+        if feedCowWith == .plants{
             cowFood?.run(fade)
             carbonoParaDireitaF2?.run(fade)
         }
         
-        if PassCarbonDioxide == .atmosphere{
+        if firstStepOfCarbonTo == .goToAtsmosphere{
             carbonoParaCimaF2?.run(fade)
         }
-        
-        if PassCarbonDioxide == .plants{
+        if secondStepOfCarbonTo == .goToPlants{
             carbonoParaBaixoF2?.run(fade)
-        }
 
+        }
+        
+    
     }
     
     

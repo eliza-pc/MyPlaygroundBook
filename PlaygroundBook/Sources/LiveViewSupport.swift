@@ -13,15 +13,26 @@ import SpriteKit
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
 
-//public var lightIsVisible = false
 
-//FaseOne_Elements
-public var FeedPlantsWith: elemento = .treeFood
+
+//MARK: FaseOne_Elements
+//public var FeedPlantsWith: elemento = .treeFood
 public var PassCarbonDioxide: passCarbon = .carbonDioxideTravel
 
-//FaseTwo_Elements
-public var FeedBeings: feedBeings = .species
 
+public var firstFotossinteseElement: FirstFotossinteseElement = .treeFood
+public var secondFotossinteseElement: SecondFotossinteseElement = .treeFood
+public var thirdFotossinteseElement: ThirdFotossinteseElement = .treeFood
+public var firstStepOfCarbonTo: FirstStepOfCarbonTo = .goSomewhere
+public var secondStepOfCarbonTo: SecondStepOfCarbonTo = .goSomewhere
+
+
+//MARK: FaseTwo_Elements
+
+//public var FeedBeings: feedBeings = .species
+public var feedHumanWith: FeedHumanWith = .someFood
+public var feedCowWith: FeedCowWith = .someFood
+public var thirdStepOfCarbon: ThirdStepOfCarbon = .goSomewhere
 
 
 

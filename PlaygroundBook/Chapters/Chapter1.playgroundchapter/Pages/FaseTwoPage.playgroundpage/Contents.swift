@@ -19,11 +19,13 @@ import PlaygroundSupport
  */
 
 // Alimente o seres da area e passe o caborno
-FeedBeings = /*#-editable-code*/.species/*#-end-editable-code*/
-FeedBeings = /*#-editable-code*/.species/*#-end-editable-code*/
-PassCarbonDioxide = /*#-editable-code*/.carbonDioxideTravel/*#-end-editable-code*/
-PassCarbonDioxide = /*#-editable-code*/.carbonDioxideTravel/*#-end-editable-code*/
 
+
+feedHumanWith = /*#-editable-code*/.someFood/*#-end-editable-code*/
+feedCowWith = /*#-editable-code*/.someFood/*#-end-editable-code*/
+firstStepOfCarbonTo = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
+secondStepOfCarbonTo = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
+thirdStepOfCarbon = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 
 
 //#-hidden-code

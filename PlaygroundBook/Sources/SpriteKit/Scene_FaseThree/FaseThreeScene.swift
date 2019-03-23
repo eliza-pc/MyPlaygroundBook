@@ -19,7 +19,7 @@ public class FaseThreeScene: SKScene {
     override public func didMove(to view: SKView) {
         
         let fase3 = self.getNode(withName: "Fase3")
-        fase3!.texture = SKTexture.init(imageNamed: "fase3")
+        fase3!.texture = SKTexture.init(imageNamed: "FaseTres")
         
         carbonoParaEsquerdaF3 = self.childNode(withName: "CarbonoParaEsquerdaF3") as? SKSpriteNode
         carbonoParaEsquerdaF3?.alpha = 0

@@ -48,7 +48,7 @@ public class GameScene: SKScene {
         carbonoParaEsquerdaF1 = self.childNode(withName: "CarbonoParaEsquerdaF1") as? SKSpriteNode
         carbonoParaEsquerdaF1?.alpha = 0
         
-        carbonoParaCimaFactoryF1 = self.childNode(withName: "CarbonoParaEsquerdaF1") as? SKSpriteNode
+        carbonoParaCimaFactoryF1 = self.childNode(withName: "carbonoParaCimaFactoryF1") as? SKSpriteNode
         carbonoParaCimaFactoryF1?.alpha = 0
         
         carbonoParaBaixoF1 = self.childNode(withName: "CarbonoParaBaixoF1") as? SKSpriteNode
@@ -56,6 +56,8 @@ public class GameScene: SKScene {
         
         carbonoParaCimaF1 = self.childNode(withName: "CarbonoParaCimaF1") as? SKSpriteNode
         carbonoParaCimaF1?.alpha = 0
+        
+        
         
         
         foodSun = self.childNode(withName: "FoodSun") as? SKSpriteNode
@@ -83,25 +85,45 @@ public class GameScene: SKScene {
 //
 //        }
 //
+//
+//        if FeedPlantsWith == .lightEnergy{
+//            foodSun?.run(fade)
+//        }
+//        if FeedPlantsWith == .water{
+//            foodWater?.run(fade)
+//        }
+//        if FeedPlantsWith == .carbondioxide{
+//           foodCarbon?.run(fade)
+//        }
+//
+//        if PassCarbonDioxide == .atmosphere{
+//            carbonoParaCimaF1?.run(fade)
+//            carbonoParaCimaFactoryF1?.run(fade)
+//        }
+//        if PassCarbonDioxide == .plants{
+//            carbonoParaBaixoF1?.run(fade)
+//            carbonoParaEsquerdaF1.run(fade)
+//        }
         
-        if FeedPlantsWith == .lightEnergy{
-            foodSun?.run(fade)
-        }
-        if FeedPlantsWith == .water{
+        if firstFotossinteseElement == .water{
             foodWater?.run(fade)
         }
-        if FeedPlantsWith == .carbondioxide{
-           foodCarbon?.run(fade)
+        if secondFotossinteseElement == .lightEnergy{
+            foodSun?.run(fade)
+        }
+        if thirdFotossinteseElement == .carbonDioxide{
+            foodCarbon?.run(fade)
         }
         
-        if PassCarbonDioxide == .atmosphere{
-            carbonoParaCimaF1?.run(fade)
+        if firstStepOfCarbonTo == .goToAtsmosphere{
             carbonoParaCimaFactoryF1?.run(fade)
+            carbonoParaCimaF1?.run(fade)
         }
-        if PassCarbonDioxide == .plants{
+        if secondStepOfCarbonTo == .goToPlants{
+            carbonoParaEsquerdaF1?.run(fade)
             carbonoParaBaixoF1?.run(fade)
-            carbonoParaEsquerdaF1.run(fade)
         }
+        
         
         
     }
