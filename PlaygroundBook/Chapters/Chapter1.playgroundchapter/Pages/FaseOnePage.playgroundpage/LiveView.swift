@@ -20,5 +20,5 @@ import PlaygroundSupport
 
 
 //PlaygroundPage.current.liveView = returnSprite()
-PlaygroundSupport.PlaygroundPage.current.liveView = returnSprite()
+PlaygroundSupport.PlaygroundPage.current.liveView = returnGameScene()
 

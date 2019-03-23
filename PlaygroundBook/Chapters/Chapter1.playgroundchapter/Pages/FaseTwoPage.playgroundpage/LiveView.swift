@@ -8,14 +8,15 @@
 import SpriteKit
 import PlaygroundSupport
 
-let frame = CGRect.init(x: 0, y: 0, width: 680, height: 480)
-let view = SKView.init(frame: frame)
-
-if let scene = FaseTwoScene(fileNamed: "FaseTwoScene"){
-    scene.scaleMode = .aspectFill
-    
-    view.presentScene(scene)
-}
+//let frame = CGRect.init(x: 0, y: 0, width: 680, height: 480)
+//let view = SKView.init(frame: frame)
+//
+//if let scene = FaseTwoScene(fileNamed: "FaseTwoScene"){
+//    scene.scaleMode = .aspectFill
+//
+//    view.presentScene(scene)
+//}
 
 //TESTE
-PlaygroundPage.current.liveView = view
+PlaygroundSupport.PlaygroundPage.current.liveView = returnSceneTwo()
+

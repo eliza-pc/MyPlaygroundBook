@@ -28,6 +28,26 @@
 		1FAF536E2245A50800A034E5 /* ☀️@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF536D2245A50800A034E5 /* ☀️@3x.png */; };
 		1FAF53702245AF1B00A034E5 /* co2Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF536F2245AF1A00A034E5 /* co2Group.png */; };
 		1FAF53722245B20500A034E5 /* sunGroup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53712245B20500A034E5 /* sunGroup.png */; };
+		1FAF537E224601D600A034E5 /* FoodWater@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5376224601D500A034E5 /* FoodWater@3x.png */; };
+		1FAF537F224601D600A034E5 /* FoodSun@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5377224601D500A034E5 /* FoodSun@3x.png */; };
+		1FAF5380224601D600A034E5 /* cabonoParaBaixoF1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5378224601D600A034E5 /* cabonoParaBaixoF1.png */; };
+		1FAF5381224601D600A034E5 /* FaseOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5379224601D600A034E5 /* FaseOne.png */; };
+		1FAF5382224601D600A034E5 /* carbonoParaCimaF1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF537A224601D600A034E5 /* carbonoParaCimaF1.png */; };
+		1FAF5383224601D600A034E5 /* carbonoParaEsquerdaF1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF537B224601D600A034E5 /* carbonoParaEsquerdaF1.png */; };
+		1FAF5384224601D600A034E5 /* CarbonoParaCimaFactoryF1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF537C224601D600A034E5 /* CarbonoParaCimaFactoryF1.png */; };
+		1FAF5385224601D600A034E5 /* FoodCO2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF537D224601D600A034E5 /* FoodCO2@3x.png */; };
+		1FAF538C2246022800A034E5 /* cowFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53862246022700A034E5 /* cowFood.png */; };
+		1FAF538D2246022800A034E5 /* carbonoParaCimaF2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53872246022700A034E5 /* carbonoParaCimaF2.png */; };
+		1FAF538E2246022800A034E5 /* FaseDois.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53882246022700A034E5 /* FaseDois.png */; };
+		1FAF538F2246022800A034E5 /* carbonoParaDireitaF2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53892246022700A034E5 /* carbonoParaDireitaF2.png */; };
+		1FAF53902246022800A034E5 /* carbonoParaBaixoF2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF538A2246022700A034E5 /* carbonoParaBaixoF2.png */; };
+		1FAF53912246022800A034E5 /* humanFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF538B2246022700A034E5 /* humanFood.png */; };
+		1FAF53952246025600A034E5 /* carbonoParaEsquerdaF3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53922246025600A034E5 /* carbonoParaEsquerdaF3.png */; };
+		1FAF53962246025600A034E5 /* FaseTres.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53932246025600A034E5 /* FaseTres.png */; };
+		1FAF53972246025600A034E5 /* carbonoParaBaixoF3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53942246025600A034E5 /* carbonoParaBaixoF3.png */; };
+		1FAF539A2246045500A034E5 /* waterFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53982246045400A034E5 /* waterFood.png */; };
+		1FAF539B2246045500A034E5 /* sunFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF53992246045400A034E5 /* sunFood.png */; };
+		1FAF539D2246046300A034E5 /* carbonFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF539C2246046300A034E5 /* carbonFood.png */; };
 		1FB06BA22243C4DD00981AF2 /* co2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB06BA12243C4DD00981AF2 /* co2@3x.png */; };
 		1FB06BA42243C4FD00981AF2 /* IntroductionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB06BA32243C4FD00981AF2 /* IntroductionScene.swift */; };
 		1FB06BA82243C86000981AF2 /* fase1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB06BA72243C86000981AF2 /* fase1.png */; };
@@ -139,6 +159,26 @@
 		1FAF536D2245A50800A034E5 /* ☀️@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "☀️@3x.png"; sourceTree = "<group>"; };
 		1FAF536F2245AF1A00A034E5 /* co2Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = co2Group.png; path = ../../../../MyPlaygroundASSETS/co2Group.png; sourceTree = "<group>"; };
 		1FAF53712245B20500A034E5 /* sunGroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunGroup.png; path = ../../../../MyPlaygroundASSETS/sunGroup.png; sourceTree = "<group>"; };
+		1FAF5376224601D500A034E5 /* FoodWater@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FoodWater@3x.png"; sourceTree = "<group>"; };
+		1FAF5377224601D500A034E5 /* FoodSun@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FoodSun@3x.png"; sourceTree = "<group>"; };
+		1FAF5378224601D600A034E5 /* cabonoParaBaixoF1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabonoParaBaixoF1.png; sourceTree = "<group>"; };
+		1FAF5379224601D600A034E5 /* FaseOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseOne.png; sourceTree = "<group>"; };
+		1FAF537A224601D600A034E5 /* carbonoParaCimaF1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaCimaF1.png; sourceTree = "<group>"; };
+		1FAF537B224601D600A034E5 /* carbonoParaEsquerdaF1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaEsquerdaF1.png; sourceTree = "<group>"; };
+		1FAF537C224601D600A034E5 /* CarbonoParaCimaFactoryF1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarbonoParaCimaFactoryF1.png; sourceTree = "<group>"; };
+		1FAF537D224601D600A034E5 /* FoodCO2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FoodCO2@3x.png"; sourceTree = "<group>"; };
+		1FAF53862246022700A034E5 /* cowFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cowFood.png; sourceTree = "<group>"; };
+		1FAF53872246022700A034E5 /* carbonoParaCimaF2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaCimaF2.png; sourceTree = "<group>"; };
+		1FAF53882246022700A034E5 /* FaseDois.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseDois.png; sourceTree = "<group>"; };
+		1FAF53892246022700A034E5 /* carbonoParaDireitaF2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaDireitaF2.png; sourceTree = "<group>"; };
+		1FAF538A2246022700A034E5 /* carbonoParaBaixoF2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaBaixoF2.png; sourceTree = "<group>"; };
+		1FAF538B2246022700A034E5 /* humanFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humanFood.png; sourceTree = "<group>"; };
+		1FAF53922246025600A034E5 /* carbonoParaEsquerdaF3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaEsquerdaF3.png; sourceTree = "<group>"; };
+		1FAF53932246025600A034E5 /* FaseTres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseTres.png; sourceTree = "<group>"; };
+		1FAF53942246025600A034E5 /* carbonoParaBaixoF3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaBaixoF3.png; sourceTree = "<group>"; };
+		1FAF53982246045400A034E5 /* waterFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterFood.png; sourceTree = "<group>"; };
+		1FAF53992246045400A034E5 /* sunFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunFood.png; sourceTree = "<group>"; };
+		1FAF539C2246046300A034E5 /* carbonFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonFood.png; sourceTree = "<group>"; };
 		1FB06BA12243C4DD00981AF2 /* co2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "co2@3x.png"; sourceTree = "<group>"; };
 		1FB06BA32243C4FD00981AF2 /* IntroductionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionScene.swift; sourceTree = "<group>"; };
 		1FB06BA72243C86000981AF2 /* fase1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fase1.png; sourceTree = "<group>"; };
@@ -243,6 +283,47 @@
 				1FAF534D2245996900A034E5 /* RainFallingExtension.swift */,
 			);
 			path = Extesions;
+			sourceTree = "<group>";
+		};
+		1FAF53732246019B00A034E5 /* AssetsDaPrimeiraFase */ = {
+			isa = PBXGroup;
+			children = (
+				1FAF539C2246046300A034E5 /* carbonFood.png */,
+				1FAF53992246045400A034E5 /* sunFood.png */,
+				1FAF53982246045400A034E5 /* waterFood.png */,
+				1FAF5378224601D600A034E5 /* cabonoParaBaixoF1.png */,
+				1FAF537A224601D600A034E5 /* carbonoParaCimaF1.png */,
+				1FAF537C224601D600A034E5 /* CarbonoParaCimaFactoryF1.png */,
+				1FAF537B224601D600A034E5 /* carbonoParaEsquerdaF1.png */,
+				1FAF5379224601D600A034E5 /* FaseOne.png */,
+				1FAF537D224601D600A034E5 /* FoodCO2@3x.png */,
+				1FAF5377224601D500A034E5 /* FoodSun@3x.png */,
+				1FAF5376224601D500A034E5 /* FoodWater@3x.png */,
+			);
+			path = AssetsDaPrimeiraFase;
+			sourceTree = "<group>";
+		};
+		1FAF5374224601AE00A034E5 /* AssetsDaSegundaFase */ = {
+			isa = PBXGroup;
+			children = (
+				1FAF538A2246022700A034E5 /* carbonoParaBaixoF2.png */,
+				1FAF53872246022700A034E5 /* carbonoParaCimaF2.png */,
+				1FAF53892246022700A034E5 /* carbonoParaDireitaF2.png */,
+				1FAF53862246022700A034E5 /* cowFood.png */,
+				1FAF53882246022700A034E5 /* FaseDois.png */,
+				1FAF538B2246022700A034E5 /* humanFood.png */,
+			);
+			path = AssetsDaSegundaFase;
+			sourceTree = "<group>";
+		};
+		1FAF5375224601BC00A034E5 /* AssetsDaTerceiraFase */ = {
+			isa = PBXGroup;
+			children = (
+				1FAF53942246025600A034E5 /* carbonoParaBaixoF3.png */,
+				1FAF53922246025600A034E5 /* carbonoParaEsquerdaF3.png */,
+				1FAF53932246025600A034E5 /* FaseTres.png */,
+			);
+			path = AssetsDaTerceiraFase;
 			sourceTree = "<group>";
 		};
 		5E086DA4204F706E004D8D25 /* Products */ = {
@@ -355,6 +436,9 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				1FAF5375224601BC00A034E5 /* AssetsDaTerceiraFase */,
+				1FAF5374224601AE00A034E5 /* AssetsDaSegundaFase */,
+				1FAF53732246019B00A034E5 /* AssetsDaPrimeiraFase */,
 				1FAF53712245B20500A034E5 /* sunGroup.png */,
 				1FAF536F2245AF1A00A034E5 /* co2Group.png */,
 				1FAF536D2245A50800A034E5 /* ☀️@3x.png */,
@@ -501,30 +585,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAF537E224601D600A034E5 /* FoodWater@3x.png in Resources */,
 				1F5ABA6C22440CBF00E76A1C /* atomR.png in Resources */,
+				1FAF538E2246022800A034E5 /* FaseDois.png in Resources */,
 				1F5ABA6E22440CBF00E76A1C /* lightR.png in Resources */,
+				1FAF53902246022800A034E5 /* carbonoParaBaixoF2.png in Resources */,
 				1FAF536E2245A50800A034E5 /* ☀️@3x.png in Resources */,
 				1F5ABA7C2244153B00E76A1C /* waterR.png in Resources */,
+				1FAF5383224601D600A034E5 /* carbonoParaEsquerdaF1.png in Resources */,
+				1FAF538F2246022800A034E5 /* carbonoParaDireitaF2.png in Resources */,
 				1FB06BAA2243C99100981AF2 /* fase2.png in Resources */,
 				1F5ABA7A2244101900E76A1C /* lightQ.png in Resources */,
+				1FAF53972246025600A034E5 /* carbonoParaBaixoF3.png in Resources */,
+				1FAF539B2246045500A034E5 /* sunFood.png in Resources */,
 				1FAF53702245AF1B00A034E5 /* co2Group.png in Resources */,
+				1FAF5380224601D600A034E5 /* cabonoParaBaixoF1.png in Resources */,
 				1FAF536C22459EF700A034E5 /* chuva_anim in Resources */,
+				1FAF539D2246046300A034E5 /* carbonFood.png in Resources */,
 				1FAF5348224590D400A034E5 /* aguaGroup.png in Resources */,
+				1FAF5382224601D600A034E5 /* carbonoParaCimaF1.png in Resources */,
+				1FAF538C2246022800A034E5 /* cowFood.png in Resources */,
+				1FAF537F224601D600A034E5 /* FoodSun@3x.png in Resources */,
 				1FAF536822459E9000A034E5 /* chuva.png in Resources */,
 				1FAF53722245B20500A034E5 /* sunGroup.png in Resources */,
+				1FAF53952246025600A034E5 /* carbonoParaEsquerdaF3.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				1F08A4E92242B012009308D3 /* GameScene.sks in Resources */,
 				1F5ABA782244101900E76A1C /* atomoQ.png in Resources */,
+				1FAF53912246022800A034E5 /* humanFood.png in Resources */,
 				1FB06BAC2243CA4700981AF2 /* fase3.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				1FAF5349224590D400A034E5 /* co2Group.png in Resources */,
+				1FAF53962246025600A034E5 /* FaseTres.png in Resources */,
 				1F0982672243C107009807DA /* FaseTwoScene.sks in Resources */,
 				1F0982632243C0AB009807DA /* IntroductionScene.sks in Resources */,
+				1FAF5385224601D600A034E5 /* FoodCO2@3x.png in Resources */,
+				1FAF5384224601D600A034E5 /* CarbonoParaCimaFactoryF1.png in Resources */,
 				1FB06BA82243C86000981AF2 /* fase1.png in Resources */,
 				1FB06BA22243C4DD00981AF2 /* co2@3x.png in Resources */,
 				1F09826C2243C169009807DA /* FaseThreeScene.sks in Resources */,
+				1FAF539A2246045500A034E5 /* waterFood.png in Resources */,
+				1FAF538D2246022800A034E5 /* carbonoParaCimaF2.png in Resources */,
 				1FAF5347224590D400A034E5 /* sunGroup.png in Resources */,
 				1F5ABA792244101900E76A1C /* waterQ.png in Resources */,
+				1FAF5381224601D600A034E5 /* FaseOne.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

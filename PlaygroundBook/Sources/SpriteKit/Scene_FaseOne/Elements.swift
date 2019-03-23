@@ -20,4 +20,19 @@ public enum elemento{
     case treeFood
 }
 
+public enum passCarbon{
+    
+    case atmosphere
+    case plants
+    case carbonDioxideTravel
+    case toHuman
+    
+}
+
+public enum feedBeings{
+    case human
+    case cow
+    case species
+}
+
 

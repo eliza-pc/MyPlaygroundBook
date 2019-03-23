@@ -14,7 +14,16 @@ import SpriteKit
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
 
 //public var lightIsVisible = false
-public var Elemento: elemento = .treeFood
+
+//FaseOne_Elements
+public var FeedPlantsWith: elemento = .treeFood
+public var PassCarbonDioxide: passCarbon = .carbonDioxideTravel
+
+//FaseTwo_Elements
+public var FeedBeings: feedBeings = .species
+
+
+
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
@@ -30,7 +39,7 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
     return liveViewController
 }
 
-public func returnSprite () -> SKView {
+public func returnGameScene () -> SKView {
     // Load the SKScene from ‘GameScene.sks’
     
     let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
@@ -46,5 +55,44 @@ public func returnSprite () -> SKView {
     
     
 }
+
+
+public func returnSceneTwo () -> SKView {
+    // Load the SKScene from ‘GameScene.sks’
+    
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
+    
+    if let scene = FaseTwoScene(fileNamed: "FaseTwoScene"){
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+    
+    
+}
+
+public func returnSceneThree () -> SKView {
+    // Load the SKScene from ‘GameScene.sks’
+    
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
+    
+    if let scene = FaseThreeScene(fileNamed: "FaseThreeScene"){
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+    
+    
+}
+
+
+
+
 
 
