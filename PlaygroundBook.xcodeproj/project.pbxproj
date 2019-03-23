@@ -48,6 +48,11 @@
 		1FC256DE2246B60500479221 /* FaseTresPrimeiraFaceNEW1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256DD2246B60500479221 /* FaseTresPrimeiraFaceNEW1.png */; };
 		1FC256E02246B61800479221 /* carbonoParaBaixoF3NEW.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256DF2246B61800479221 /* carbonoParaBaixoF3NEW.png */; };
 		1FC256E22246B79800479221 /* FaseDoisNEW1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256E12246B79800479221 /* FaseDoisNEW1.png */; };
+		1FC256E42246D56100479221 /* co2Anim in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256E32246D56100479221 /* co2Anim */; };
+		1FC256E82246D5BB00479221 /* nuvem0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256E72246D5BB00479221 /* nuvem0.png */; };
+		1FC256EA2246D5DD00479221 /* co2Anim0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256E92246D5DC00479221 /* co2Anim0.png */; };
+		1FC256EC2246D92E00479221 /* animacao_nuvem in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256EB2246D92D00479221 /* animacao_nuvem */; };
+		1FC256EE2246D9AA00479221 /* CapaIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256ED2246D9A900479221 /* CapaIntro.png */; };
 		1FF720BD22442DAA006222F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF720BC22442DAA006222F0 /* GameScene.swift */; };
 		1FF720D52245807F006222F0 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF720D42245807F006222F0 /* Elements.swift */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
@@ -174,6 +179,11 @@
 		1FC256DD2246B60500479221 /* FaseTresPrimeiraFaceNEW1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseTresPrimeiraFaceNEW1.png; sourceTree = "<group>"; };
 		1FC256DF2246B61800479221 /* carbonoParaBaixoF3NEW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbonoParaBaixoF3NEW.png; sourceTree = "<group>"; };
 		1FC256E12246B79800479221 /* FaseDoisNEW1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseDoisNEW1.png; sourceTree = "<group>"; };
+		1FC256E32246D56100479221 /* co2Anim */ = {isa = PBXFileReference; lastKnownFileType = folder; path = co2Anim; sourceTree = "<group>"; };
+		1FC256E72246D5BB00479221 /* nuvem0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuvem0.png; sourceTree = "<group>"; };
+		1FC256E92246D5DC00479221 /* co2Anim0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = co2Anim0.png; sourceTree = "<group>"; };
+		1FC256EB2246D92D00479221 /* animacao_nuvem */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animacao_nuvem; sourceTree = "<group>"; };
+		1FC256ED2246D9A900479221 /* CapaIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CapaIntro.png; sourceTree = "<group>"; };
 		1FF720BC22442DAA006222F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1FF720D42245807F006222F0 /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* The carbon of things .playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The carbon of things .playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +288,7 @@
 		1FAF53732246019B00A034E5 /* AssetsDaPrimeiraFase */ = {
 			isa = PBXGroup;
 			children = (
+				1FC256ED2246D9A900479221 /* CapaIntro.png */,
 				1FC256D72246B58E00479221 /* carbonoParaCimaF1NEW.png */,
 				1FC256CE2246B4DA00479221 /* Co2NEW.png */,
 				1FC256CF2246B4DA00479221 /* sun-NEW.png */,
@@ -375,6 +386,8 @@
 		5E2A7ADC204F611300F4E17A = {
 			isa = PBXGroup;
 			children = (
+				1FC256E92246D5DC00479221 /* co2Anim0.png */,
+				1FC256E72246D5BB00479221 /* nuvem0.png */,
 				1FAF536722459E9000A034E5 /* chuva.png */,
 				5E0E37542065A065008FA4BE /* README.md */,
 				5E086DC12051C5A7004D8D25 /* PlaygroundBook */,
@@ -449,6 +462,8 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1FC256EB2246D92D00479221 /* animacao_nuvem */,
+				1FC256E32246D56100479221 /* co2Anim */,
 				1FAF536B22459EF700A034E5 /* chuva_anim */,
 				1F08A4E72242AFE0009308D3 /* SpriteKit */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
@@ -574,13 +589,18 @@
 				1FAF537E224601D600A034E5 /* FoodWater@3x.png in Resources */,
 				1FAF53902246022800A034E5 /* carbonoParaBaixoF2.png in Resources */,
 				1FAF5383224601D600A034E5 /* carbonoParaEsquerdaF1.png in Resources */,
+				1FC256E82246D5BB00479221 /* nuvem0.png in Resources */,
+				1FC256EE2246D9AA00479221 /* CapaIntro.png in Resources */,
+				1FC256EC2246D92E00479221 /* animacao_nuvem in Resources */,
 				1FC256D22246B4DA00479221 /* sun-NEW.png in Resources */,
 				1FAF538F2246022800A034E5 /* carbonoParaDireitaF2.png in Resources */,
 				1FAF53972246025600A034E5 /* carbonoParaBaixoF3.png in Resources */,
 				1FAF539B2246045500A034E5 /* sunFood.png in Resources */,
+				1FC256E42246D56100479221 /* co2Anim in Resources */,
 				1FAF5380224601D600A034E5 /* cabonoParaBaixoF1.png in Resources */,
 				1FAF536C22459EF700A034E5 /* chuva_anim in Resources */,
 				1FAF539D2246046300A034E5 /* carbonFood.png in Resources */,
+				1FC256EA2246D5DD00479221 /* co2Anim0.png in Resources */,
 				1FAF5382224601D600A034E5 /* carbonoParaCimaF1.png in Resources */,
 				1FAF538C2246022800A034E5 /* cowFood.png in Resources */,
 				1FC256D82246B58E00479221 /* carbonoParaCimaF1NEW.png in Resources */,

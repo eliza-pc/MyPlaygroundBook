@@ -25,6 +25,7 @@ public class GameScene: SKScene {
     var foodSun: SKSpriteNode!
     var foodWater: SKSpriteNode!
     var foodCarbon: SKSpriteNode!
+    var nuvem: SKSpriteNode!
     
     let fade = SKAction.fadeAlpha(to: 1, duration: 1.0)
     
@@ -45,6 +46,12 @@ public class GameScene: SKScene {
 //
 //        gotas = self.childNode(withName: "gota") as? SKSpriteNode
 //
+        
+        nuvem = self.childNode(withName: "Nuvem") as? SKSpriteNode
+        nuvem.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["nuvemPassando"]!, timePerFrame: 0.8)))
+        
+            
+        
         carbonoParaEsquerdaF1 = self.childNode(withName: "CarbonoParaEsquerdaF1") as? SKSpriteNode
         carbonoParaEsquerdaF1?.alpha = 0
         

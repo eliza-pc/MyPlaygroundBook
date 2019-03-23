@@ -26,12 +26,41 @@ extension Array where Element == SKTexture {
         
     ]
     
+    public static let nuvemPassando: [SKTexture] = [
+        
+        SKTexture(imageNamed: "animacao_nuvem/nuvem1"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem2"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem3"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem4"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem5"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem6"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem7"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem8"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem9"),
+        SKTexture(imageNamed: "animacao_nuvem/nuvem10"),
+        
+        ]
+    
+    public static let co2Flutuando: [SKTexture] = [
+        
+        SKTexture(imageNamed: "co2Anim/co2Anim1"),
+        SKTexture(imageNamed: "co2Anim/co2Anim2"),
+        SKTexture(imageNamed: "co2Anim/co2Anim3"),
+     
+        
+        ]
+    
     
     public static let dicTextures: [String: [SKTexture]] = [
         
-        "piscando": Array.piscando
+        "piscando": Array.piscando,
+        "nuvemPassando": Array.nuvemPassando,
+        "co2Flutuando": Array.co2Flutuando,
+        
         
     ]
+    
+ 
     
 }
 
