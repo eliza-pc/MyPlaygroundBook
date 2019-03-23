@@ -11,53 +11,32 @@ import SpriteKit
 
 public class GameScene: SKScene {
     
+//MARK: Variables
     
-    var lightBalloon: SKSpriteNode!
-    var rain:SKSpriteNode!
     var gotas: SKSpriteNode!
+    var co2Group: SKSpriteNode!
+    var sunGroup: SKSpriteNode!
+    
+    let fade = SKAction.fadeAlpha(to: 1, duration: 2.0)
+    
     
     override public func didMove(to view: SKView) {
         super.didMove(to: view)
         
 //MARK: GameScene Elements
+     
+        //        let fase1 = self.getNode(withName: "Fase1")
+        //        //fase1!.texture = SKTexture.init(imageNamed: "fase1")
+
+        co2Group = self.childNode(withName: "co2Group") as? SKSpriteNode
+        co2Group?.alpha = 0
         
-        let fase1 = self.getNode(withName: "Fase1")
-        //fase1!.texture = SKTexture.init(imageNamed: "fase1")
-    
-        let waterBalloon = self.getNode(withName: "waterBalloon")
-       //waterBalloon!.texture = SKTexture.init(imageNamed: "waterQ")
-        
-        let co2Balloon = self.getNode(withName: "co2Balloon")
-       //co2Balloon!.texture = SKTexture.init(imageNamed: "atomoQ")
-        
-        let water = self.getNode(withName: "water")
-       //water!.texture = SKTexture.init(imageNamed: "waterR")
-        
-        let light = self.childNode(withName: "light")
-        // light!.texture = SKTexture.init(imageNamed: "lightR")
-        
-        let atom = self.getNode(withName: "atom")
-        //atom!.texture = SKTexture.init(imageNamed: "atomR")
-        
-        //rain = self.childNode(withName: "chuva") as? SKSpriteNode
+        sunGroup = self.childNode(withName: "sunGroup") as? SKSpriteNode
+        sunGroup?.alpha = 0
+       
         gotas = self.childNode(withName: "gota") as? SKSpriteNode
         
-        
-        lightBalloon = self.childNode(withName: "lightBalloon") as? SKSpriteNode
-        //lightBalloon!.texture = SKTexture.init(imageNamed: "lightQ")
-        
-//
-//        if lightIsVisible == false{
-//
-//            light!.alpha = 0
-//            self.childNode(withName: "light")!.alpha = 0
-//
-//        } else{
-//            light!.alpha = 1
-//           self.childNode(withName: "light")!.alpha = 1
-//
-//        }
-        
+//MARK: User Interaction
         
         if Elemento == .water{
 
@@ -70,6 +49,17 @@ public class GameScene: SKScene {
 
         }
         
+        if Elemento == .carbondioxide{
+            
+            co2Group?.run(fade)
+            
+        }
+        
+        if Elemento == .lightEnergy{
+            
+           sunGroup?.run(fade)
+            
+        }
         
     }
     
