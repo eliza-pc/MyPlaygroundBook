@@ -13,6 +13,7 @@ public class FaseThreeScene: SKScene {
     
     var carbonoParaEsquerdaF3: SKSpriteNode!
     var carbonoParaBaixoF3: SKSpriteNode!
+    var nuvem: SKSpriteNode!
     
      let fade = SKAction.fadeAlpha(to: 1, duration: 1.0)
     
@@ -20,6 +21,9 @@ public class FaseThreeScene: SKScene {
         
         let fase3 = self.getNode(withName: "Fase3")
         fase3!.texture = SKTexture.init(imageNamed: "FaseTresPrimeiraFaceNEW1")
+        
+        nuvem = self.childNode(withName: "Nuvem") as? SKSpriteNode
+        nuvem.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["nuvemPassando"]!, timePerFrame: 0.8)))
         
         carbonoParaEsquerdaF3 = self.childNode(withName: "CarbonoParaEsquerdaF3") as? SKSpriteNode
         carbonoParaEsquerdaF3?.alpha = 0

@@ -55,7 +55,7 @@ public class GameScene: SKScene {
         carbonoParaEsquerdaF1 = self.childNode(withName: "CarbonoParaEsquerdaF1") as? SKSpriteNode
         carbonoParaEsquerdaF1?.alpha = 0
         
-        carbonoParaCimaFactoryF1 = self.childNode(withName: "carbonoParaCimaFactoryF1") as? SKSpriteNode
+        carbonoParaCimaFactoryF1 = self.childNode(withName: "CarbonoParaCimaFactoryF1") as? SKSpriteNode
         carbonoParaCimaFactoryF1?.alpha = 0
         
         carbonoParaBaixoF1 = self.childNode(withName: "CarbonoParaBaixoF1") as? SKSpriteNode

@@ -43,10 +43,11 @@ extension Array where Element == SKTexture {
     
     public static let co2Flutuando: [SKTexture] = [
         
-        SKTexture(imageNamed: "co2Anim/co2Anim1"),
-        SKTexture(imageNamed: "co2Anim/co2Anim2"),
-        SKTexture(imageNamed: "co2Anim/co2Anim3"),
-     
+        SKTexture(imageNamed: "anima_carbono/anima1"),
+        SKTexture(imageNamed: "anima_carbono/anima2"),
+        SKTexture(imageNamed: "anima_carbono/anima3"),
+        SKTexture(imageNamed: "anima_carbono/anima4"),
+        SKTexture(imageNamed: "anima_carbono/anima5"),
         
         ]
     
