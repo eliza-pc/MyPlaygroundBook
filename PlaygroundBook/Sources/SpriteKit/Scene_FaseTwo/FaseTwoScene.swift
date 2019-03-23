@@ -18,12 +18,12 @@ public class FaseTwoScene: SKScene {
     var cowFood: SKSpriteNode!
     var humanFood: SKSpriteNode!
     
-    let fade = SKAction.fadeAlpha(to: 1, duration: 2.0)
+    let fade = SKAction.fadeAlpha(to: 1, duration: 1.0)
     
     override public func didMove(to view: SKView) {
         
         let fase2 = self.getNode(withName: "Fase2")
-        fase2!.texture = SKTexture.init(imageNamed: "FaseDois")
+        fase2!.texture = SKTexture.init(imageNamed: "FaseDoisNEW1")
         
 //MARK: Scene Elements
         

@@ -81,4 +81,15 @@ public enum ThirdStepOfCarbon{
 }
 
 
+//MARK: Third Fase Elements
+
+public enum FourthStepOfCarbon{
+    case goToTheSoil
+    case goSomewhere
+}
+public enum FifhtStepOfCarbon{
+    case goToTheRoot
+    case goSomewhere
+}
+
 

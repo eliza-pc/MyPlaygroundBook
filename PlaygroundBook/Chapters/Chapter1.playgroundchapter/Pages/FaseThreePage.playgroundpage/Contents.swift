@@ -19,8 +19,8 @@ import PlaygroundSupport
  */
 
 // Passe o carbono para as plantas
-
-PassCarbonDioxide = /*#-editable-code*/.carbonDioxideTravel/*#-end-editable-code*/
+fourthStepOfCarbon = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
+fifhtStepOfCarbon = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 
 
 //#-hidden-code

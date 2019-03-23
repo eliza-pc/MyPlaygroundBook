@@ -26,7 +26,7 @@ public class GameScene: SKScene {
     var foodWater: SKSpriteNode!
     var foodCarbon: SKSpriteNode!
     
-    let fade = SKAction.fadeAlpha(to: 1, duration: 2.0)
+    let fade = SKAction.fadeAlpha(to: 1, duration: 1.0)
     
     
     override public func didMove(to view: SKView) {

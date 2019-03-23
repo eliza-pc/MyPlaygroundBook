@@ -34,6 +34,9 @@ public var feedHumanWith: FeedHumanWith = .someFood
 public var feedCowWith: FeedCowWith = .someFood
 public var thirdStepOfCarbon: ThirdStepOfCarbon = .goSomewhere
 
+//MARK: FaseThree_Elements
+public var fourthStepOfCarbon: FourthStepOfCarbon = .goSomewhere
+public var fifhtStepOfCarbon: FifhtStepOfCarbon = .goSomewhere
 
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {
