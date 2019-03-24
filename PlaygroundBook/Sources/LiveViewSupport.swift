@@ -20,9 +20,9 @@ import SpriteKit
 public var PassCarbonDioxide: passCarbon = .carbonDioxideTravel
 
 
-public var firstFotossinteseElement: FirstFotossinteseElement = .treeFood
-public var secondFotossinteseElement: SecondFotossinteseElement = .treeFood
-public var thirdFotossinteseElement: ThirdFotossinteseElement = .treeFood
+public var firstPhotosintesisElement: FirstFotossinteseElement = .treeFood
+public var secondPhotosintesisElement: SecondFotossinteseElement = .treeFood
+public var thirdPhotosintesisElement: ThirdFotossinteseElement = .treeFood
 public var firstStepOfCarbonTo: FirstStepOfCarbonTo = .goSomewhere
 public var secondStepOfCarbonTo: SecondStepOfCarbonTo = .goSomewhere
 

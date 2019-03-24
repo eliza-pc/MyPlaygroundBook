@@ -4,29 +4,27 @@ import PlaygroundSupport
 //#-end-hidden-code
 
 /*:
- # Challege One - The Photosintesis Process
+ #Chapter Two: The Food Web x CO2
  
- The photosinthesis is the process where some plants and other beigns take some water,  light enerny and carbon dioxide to feed themselves. What means that the plants in our playground are really hungry, Mr. Carbon Dioxide suggested that you can feed them here throught something called code so he will give you a hand in orde to complete that.
+ The **food web** is the interconnection of beings so that energy and nutrients flow from one to the next. This is one of the **most important** things to the maintenance of the many lives in our planet. Because when some animal desapear consequently another may disappear too.
  
+ Mr. Carbon Dioxide will travel all over the bodies of all the beings on the scene and then go to the next chapter in order to do that he recomended that you **feed the beings** on the scene to maintain the food web and the flow.
  
- 
- **Feeding the Plants**
- You can feed the plants by adding some foods that photosintesis provides like:
- 
- - **Note:** Remember, healthy foods make your weight go down by **10** and unhealthy foods increase it by **10**. Healthy habits make your cholesterol go down by **10** and unhealthy habits increase it by **10**.
- 
- 
+ - **Note:**Fred the cow will consume the plants that is already with CO2 to and Padme the human will consume the meat of Fred so they can maintain their subsistence. Later Padme will realease **atmospheric carbon** throught her **cellular respiration**.
  */
 
-// Alimente o seres da area e passe o caborno
-
-
+//Feed the beings with their respective food
 feedHumanWith = /*#-editable-code*/.someFood/*#-end-editable-code*/
 feedCowWith = /*#-editable-code*/.someFood/*#-end-editable-code*/
+
+//Complete the CO2 of things on the scene
 firstStepOfCarbonTo = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 secondStepOfCarbonTo = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 thirdStepOfCarbon = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 
+/*:
+ Click [HERE](@next) to go to the Chapter Three!
+ */
 
 //#-hidden-code
 PlaygroundSupport.PlaygroundPage.current.liveView = returnSceneTwo()

@@ -4,24 +4,20 @@ import PlaygroundSupport
 //#-end-hidden-code
 
 /*:
- # Challege One - The Photosintesis Process
+ #Chapter One: The Healthy Soil
  
- The photosinthesis is the process where some plants and other beigns take some water,  light enerny and carbon dioxide to feed themselves. What means that the plants in our playground are really hungry, Mr. Carbon Dioxide suggested that you can feed them here throught something called code so he will give you a hand in orde to complete that.
+ The Healthy soil is the home of many beings who deal the maintenance of plants. Beings like bacteria and death things plus the carbon that comes from the animals poop creates a really rich soil that results in a lot of life.
  
- 
- 
- **Feeding the Plants**
- You can feed the plants by adding some foods that photosintesis provides like:
- 
- - **Note:** Remember, healthy foods make your weight go down by **10** and unhealthy foods increase it by **10**. Healthy habits make your cholesterol go down by **10** and unhealthy habits increase it by **10**.
- 
- 
+ For this last chapter Mr. Carbon Dioxide wants you to pass the CO2 to the soil and the root to complete the cycle.
  */
 
-// Passe o carbono para as plantas
+//Complete the CO2 of things on the scene
 fourthStepOfCarbon = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 fifhtStepOfCarbon = /*#-editable-code*/.goSomewhere/*#-end-editable-code*/
 
+/*:
+Click [HERE](@next) to go to the next page!
+*/
 
 //#-hidden-code
 PlaygroundSupport.PlaygroundPage.current.liveView = returnSceneThree()
