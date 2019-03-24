@@ -23,8 +23,8 @@ public class FaseTwoScene: SKScene {
     
     override public func didMove(to view: SKView) {
         
-        let fase2 = self.getNode(withName: "Fase2")
-        fase2!.texture = SKTexture.init(imageNamed: "FaseDoisNEW1")
+//        let fase2 = self.getNode(withName: "Fase2")
+//        fase2!.texture = SKTexture.init(imageNamed: "FaseDoisNEW1")
         
         nuvem = self.childNode(withName: "Nuvem") as? SKSpriteNode
         nuvem.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["nuvemPassando"]!, timePerFrame: 0.8)))
@@ -54,16 +54,19 @@ public class FaseTwoScene: SKScene {
         }
         if feedCowWith == .plants{
             cowFood?.run(fade)
-            carbonoParaDireitaF2?.run(fade)
         }
         
-        if firstStepOfCarbonTo == .goToAtsmosphere{
+        
+        if thirdStepOfCarbon == .goToCow{
+            cowFood?.run(fade)
+        }
+        if fourthStepOfCarbon == .goToHumans{
+            carbonoParaDireitaF2?.run(fade)
+        }
+        if fifhtStepOfCarbon == .goToAtsmosphere{
             carbonoParaCimaF2?.run(fade)
         }
-        if secondStepOfCarbonTo == .goToPlants{
-            carbonoParaBaixoF2?.run(fade)
-
-        }
+        
         
     
     }

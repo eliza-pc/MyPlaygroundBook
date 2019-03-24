@@ -1,11 +1,11 @@
 /*:
- # Hello, welcome to The CO2 of things!
+ # A note about emphaty
  
- Have you already think about our life cycle? Or pherhaps our planet life cycle? One day you born, and another you grow up and then you die. But happens so much between this time space isn’t it? On earth are happening a lot of things just at this moment.
+ As you may see along all this journey the carbon dioxide is present in the most of things in our planet. Everything is **connected** to each other. One thing can give life to another! And to maintain this perfect ballance we need to stay sensible about it.
  
- People creating memories, animals living freely, rains falling, sun rising, so many things that you and me can even count it! How the earth manage to maintain all the nature working in this perfect ballace that genaretes life?
+ Just because we are not seeing this cycle doesn’t mean to say that it’s not happening. The CO2 can make a **great harm** to our atmospheric when realeased in abundance but can do greats when balanced. We saw that the trees captures the most of the carbon dioxide realeased by things in our planet and this minimazes the harm that CO2 can do.
  
- Well to understand a little part of this big planet  you will get know with Mr. Carbon Dioxide witch is a very famous molecule in the world of molecules. He will drive you thru a day in his life cycle in order to understand how important is the connection of things in our planet, and how even a small molecule like co2 can make a huge difference in another life.
+ At the end all, this Playground Book it's not only about the CO2 life cycle it is about **empaty**, it’s about life and staying togheter. All the things matters and is important just like you. Be empathic, stay empathic.
  
-[Click to go to the next page!](@next)
+**Thank You, hope you've enjoy it.**
  */

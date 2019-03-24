@@ -21,8 +21,8 @@ public var PassCarbonDioxide: passCarbon = .carbonDioxideTravel
 
 
 public var firstPhotosintesisElement: FirstFotossinteseElement = .treeFood
-public var secondPhotosintesisElement: SecondFotossinteseElement = .treeFood
-public var thirdPhotosintesisElement: ThirdFotossinteseElement = .treeFood
+public var secondPhotosintesisElement: ThirdFotossinteseElement = .treeFood
+//public var thirdPhotosintesisElement: ThirdFotossinteseElement = .treeFood
 public var firstStepOfCarbonTo: FirstStepOfCarbonTo = .goSomewhere
 public var secondStepOfCarbonTo: SecondStepOfCarbonTo = .goSomewhere
 
@@ -32,11 +32,16 @@ public var secondStepOfCarbonTo: SecondStepOfCarbonTo = .goSomewhere
 //public var FeedBeings: feedBeings = .species
 public var feedHumanWith: FeedHumanWith = .someFood
 public var feedCowWith: FeedCowWith = .someFood
+
 public var thirdStepOfCarbon: ThirdStepOfCarbon = .goSomewhere
+public var fourthStepOfCarbon: FourthStepOfCarbon = .goSomewhere
+public var  fifhtStepOfCarbon: FifhtStepOfCarbon = .goSomewhere
 
 //MARK: FaseThree_Elements
-public var fourthStepOfCarbon: FourthStepOfCarbon = .goSomewhere
-public var fifhtStepOfCarbon: FifhtStepOfCarbon = .goSomewhere
+public var sixthStepOfCarbon: SixthStepOfCarbon = .goSomewhere
+public var  seventhStepOfCarbon: SeventhStepOfCarbon = .goSomewhere
+
+
 
 
 public func instantiateLiveView() -> PlaygroundLiveViewable {
@@ -105,6 +110,22 @@ public func returnSceneThree () -> SKView {
     
 }
 
+public func returnLastScene () -> SKView {
+    // Load the SKScene from ‘GameScene.sks’
+    
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
+    
+    if let scene = LastPage(fileNamed: "LastPage"){
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+    
+    
+}
 
 
 

@@ -76,7 +76,7 @@ public enum FeedCowWith{
 }
 
 public enum ThirdStepOfCarbon{
-    case goToHumans
+    case goToCow
     case goSomewhere
 }
 
@@ -84,12 +84,25 @@ public enum ThirdStepOfCarbon{
 //MARK: Third Fase Elements
 
 public enum FourthStepOfCarbon{
-    case goToTheSoil
+    case goToHumans
     case goSomewhere
 }
 public enum FifhtStepOfCarbon{
-    case goToTheRoot
+    case goToAtsmosphere
     case goSomewhere
 }
+
+public enum SixthStepOfCarbon{
+    case goTheSoil
+    case goSomewhere
+}
+
+public enum SeventhStepOfCarbon{
+    case goTheRoot
+    case goSomewhere
+}
+
+
+
 
 

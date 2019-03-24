@@ -30,12 +30,11 @@ public class FaseThreeScene: SKScene {
         carbonoParaBaixoF3 = self.childNode(withName: "CarbonoParaBaixoF3") as? SKSpriteNode
         carbonoParaBaixoF3?.alpha = 0
         
-        if fourthStepOfCarbon == .goToTheSoil{
+        if sixthStepOfCarbon == .goTheSoil{
             carbonoParaBaixoF3?.run(fade)
         }
-        
-        if fifhtStepOfCarbon == .goToTheRoot {
-            carbonoParaEsquerdaF3?.run(fade)
+        if seventhStepOfCarbon == .goTheRoot{
+             carbonoParaEsquerdaF3?.run(fade)
         }
         
     }

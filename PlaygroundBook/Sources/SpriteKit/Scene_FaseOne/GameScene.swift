@@ -21,7 +21,7 @@ public class GameScene: SKScene {
     var carbonoParaEsquerdaF1: SKSpriteNode!
     var carbonoParaCimaFactoryF1: SKSpriteNode!
     var carbonoParaBaixoF1: SKSpriteNode!
-    var carbonoParaCimaF1: SKSpriteNode!
+    var oxygen: SKSpriteNode!
     var foodSun: SKSpriteNode!
     var foodWater: SKSpriteNode!
     var foodCarbon: SKSpriteNode!
@@ -37,8 +37,9 @@ public class GameScene: SKScene {
      
         nuvem = self.childNode(withName: "Nuvem") as? SKSpriteNode
         nuvem.run(SKAction.repeatForever(SKAction.animate(with: Array.dicTextures["nuvemPassando"]!, timePerFrame: 0.8)))
+
         
-        
+      
         carbonoParaEsquerdaF1 = self.childNode(withName: "CarbonoParaEsquerdaF1") as? SKSpriteNode
         carbonoParaEsquerdaF1?.alpha = 0
         
@@ -47,6 +48,9 @@ public class GameScene: SKScene {
         
         carbonoParaBaixoF1 = self.childNode(withName: "CarbonoParaBaixoF1") as? SKSpriteNode
         carbonoParaBaixoF1?.alpha = 0
+        
+        oxygen = self.childNode(withName: "oxygen") as? SKSpriteNode
+        oxygen?.alpha = 0
         
         foodSun = self.childNode(withName: "FoodSun") as? SKSpriteNode
         foodSun?.alpha = 0
@@ -64,20 +68,17 @@ public class GameScene: SKScene {
         if firstPhotosintesisElement == .water{
             foodWater?.run(fade)
         }
-        if secondPhotosintesisElement == .lightEnergy{
-            foodSun?.run(fade)
-        }
-        if thirdPhotosintesisElement == .carbonDioxide{
+        if secondPhotosintesisElement == .carbonDioxide{
             foodCarbon?.run(fade)
         }
         
         if firstStepOfCarbonTo == .goToAtsmosphere{
             carbonoParaCimaFactoryF1?.run(fade)
-           
         }
         if secondStepOfCarbonTo == .goToPlants{
             carbonoParaEsquerdaF1?.run(fade)
             carbonoParaBaixoF1?.run(fade)
+            oxygen?.run(fade)
         }
         
         
