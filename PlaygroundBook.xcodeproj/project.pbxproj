@@ -14,6 +14,8 @@
 		1F09826C2243C169009807DA /* FaseThreeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F09826B2243C169009807DA /* FaseThreeScene.sks */; };
 		1F09826E2243C220009807DA /* FaseThreeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09826D2243C220009807DA /* FaseThreeScene.swift */; };
 		1F274CF52246A48200DDB105 /* FaseDois.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F274CF42246A48200DDB105 /* FaseDois.png */; };
+		1F99389422474FC70016723C /* LastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F99389322474FC70016723C /* LastPage.swift */; };
+		1F99389622474FD70016723C /* LastPage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F99389522474FD70016723C /* LastPage.sks */; };
 		1FAF534E2245996900A034E5 /* RainFallingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAF534D2245996900A034E5 /* RainFallingExtension.swift */; };
 		1FAF5380224601D600A034E5 /* cabonoParaBaixoF1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5378224601D600A034E5 /* cabonoParaBaixoF1.png */; };
 		1FAF5381224601D600A034E5 /* FaseOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAF5379224601D600A034E5 /* FaseOne.png */; };
@@ -38,7 +40,8 @@
 		1FC256F6224738AA00479221 /* FaseDoisPX.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256F5224738AA00479221 /* FaseDoisPX.png */; };
 		1FC256F8224738C800479221 /* FaseTresPX.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256F7224738C800479221 /* FaseTresPX.png */; };
 		1FC256FA22473A6900479221 /* the CO2 of things2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256F922473A6900479221 /* the CO2 of things2.png */; };
-		1FC256FC22473FCF00479221 /* icone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC256FB22473FCF00479221 /* icone@3x.png */; };
+		1FC2570222474EE100479221 /* ICONE2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2570122474EE100479221 /* ICONE2@2x.png */; };
+		1FC2570422474F1200479221 /* LASTPAGE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2570322474F1200479221 /* LASTPAGE@2x.png */; };
 		1FF720BD22442DAA006222F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF720BC22442DAA006222F0 /* GameScene.swift */; };
 		1FF720D52245807F006222F0 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF720D42245807F006222F0 /* Elements.swift */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
@@ -131,6 +134,8 @@
 		1F09826B2243C169009807DA /* FaseThreeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FaseThreeScene.sks; sourceTree = "<group>"; };
 		1F09826D2243C220009807DA /* FaseThreeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaseThreeScene.swift; sourceTree = "<group>"; };
 		1F274CF42246A48200DDB105 /* FaseDois.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseDois.png; sourceTree = "<group>"; };
+		1F99389322474FC70016723C /* LastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPage.swift; sourceTree = "<group>"; };
+		1F99389522474FD70016723C /* LastPage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LastPage.sks; sourceTree = "<group>"; };
 		1FAF534D2245996900A034E5 /* RainFallingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFallingExtension.swift; sourceTree = "<group>"; };
 		1FAF5378224601D600A034E5 /* cabonoParaBaixoF1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabonoParaBaixoF1.png; sourceTree = "<group>"; };
 		1FAF5379224601D600A034E5 /* FaseOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseOne.png; sourceTree = "<group>"; };
@@ -155,7 +160,8 @@
 		1FC256F5224738AA00479221 /* FaseDoisPX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseDoisPX.png; sourceTree = "<group>"; };
 		1FC256F7224738C800479221 /* FaseTresPX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaseTresPX.png; sourceTree = "<group>"; };
 		1FC256F922473A6900479221 /* the CO2 of things2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the CO2 of things2.png"; sourceTree = "<group>"; };
-		1FC256FB22473FCF00479221 /* icone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icone@3x.png"; sourceTree = "<group>"; };
+		1FC2570122474EE100479221 /* ICONE2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICONE2@2x.png"; sourceTree = "<group>"; };
+		1FC2570322474F1200479221 /* LASTPAGE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LASTPAGE@2x.png"; sourceTree = "<group>"; };
 		1FF720BC22442DAA006222F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1FF720D42245807F006222F0 /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* The carbon of things .playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The carbon of things .playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +209,7 @@
 		1F08A4E72242AFE0009308D3 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				1F99389222474FB80016723C /* LastPage */,
 				1FAF534C2245995500A034E5 /* Extesions */,
 				1F09826A2243C146009807DA /* Scene_FaseThree */,
 				1F0982652243C0D1009807DA /* Scene_FaseTwo */,
@@ -247,6 +254,15 @@
 				1F09826D2243C220009807DA /* FaseThreeScene.swift */,
 			);
 			path = Scene_FaseThree;
+			sourceTree = "<group>";
+		};
+		1F99389222474FB80016723C /* LastPage */ = {
+			isa = PBXGroup;
+			children = (
+				1F99389322474FC70016723C /* LastPage.swift */,
+				1F99389522474FD70016723C /* LastPage.sks */,
+			);
+			path = LastPage;
 			sourceTree = "<group>";
 		};
 		1FAF534C2245995500A034E5 /* Extesions */ = {
@@ -407,7 +423,8 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
-				1FC256FB22473FCF00479221 /* icone@3x.png */,
+				1FC2570322474F1200479221 /* LASTPAGE@2x.png */,
+				1FC2570122474EE100479221 /* ICONE2@2x.png */,
 				1FC256F922473A6900479221 /* the CO2 of things2.png */,
 				1FAF5375224601BC00A034E5 /* AssetsDaTerceiraFase */,
 				1FAF5374224601AE00A034E5 /* AssetsDaSegundaFase */,
@@ -543,7 +560,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC256FC22473FCF00479221 /* icone@3x.png in Resources */,
 				1FC256E02246B61800479221 /* carbonoParaBaixoF3NEW.png in Resources */,
 				1FAF53902246022800A034E5 /* carbonoParaBaixoF2.png in Resources */,
 				1FAF5383224601D600A034E5 /* carbonoParaEsquerdaF1.png in Resources */,
@@ -551,6 +567,7 @@
 				1FC256F42246E05C00479221 /* anima0.png in Resources */,
 				1FC256EC2246D92E00479221 /* animacao_nuvem in Resources */,
 				1FC256D22246B4DA00479221 /* sun-NEW.png in Resources */,
+				1FC2570222474EE100479221 /* ICONE2@2x.png in Resources */,
 				1FAF538F2246022800A034E5 /* carbonoParaDireitaF2.png in Resources */,
 				1FC256F22246DEF000479221 /* anima_carbono in Resources */,
 				1FAF5380224601D600A034E5 /* cabonoParaBaixoF1.png in Resources */,
@@ -564,12 +581,14 @@
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				1F0982672243C107009807DA /* FaseTwoScene.sks in Resources */,
 				1F0982632243C0AB009807DA /* IntroductionScene.sks in Resources */,
+				1FC2570422474F1200479221 /* LASTPAGE@2x.png in Resources */,
 				1FC256DC2246B5CC00479221 /* cowFoodNEW.png in Resources */,
 				1FC256F8224738C800479221 /* FaseTresPX.png in Resources */,
 				1FC256FA22473A6900479221 /* the CO2 of things2.png in Resources */,
 				1FAF5384224601D600A034E5 /* CarbonoParaCimaFactoryF1.png in Resources */,
 				1F09826C2243C169009807DA /* FaseThreeScene.sks in Resources */,
 				1FC256DB2246B5CC00479221 /* humanFoodNEW.png in Resources */,
+				1F99389622474FD70016723C /* LastPage.sks in Resources */,
 				1FC256DE2246B60500479221 /* FaseTresPrimeiraFaceNEW1.png in Resources */,
 				1FAF538D2246022800A034E5 /* carbonoParaCimaF2.png in Resources */,
 				1FAF5381224601D600A034E5 /* FaseOne.png in Resources */,
@@ -626,6 +645,7 @@
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				1FB06BA42243C4FD00981AF2 /* IntroductionScene.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				1F99389422474FC70016723C /* LastPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
