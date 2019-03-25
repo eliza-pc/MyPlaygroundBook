@@ -4,7 +4,7 @@ import PlaygroundSupport
 //#-end-hidden-code
 
 /*:
- # Chapter One: The Photosintesis Process
+ # Chapter One: The Photosysntesis Process
 
  The **photosintesis** is the process where the **light energy** provided by the sun give some **water** and **CO2** to the chlorophyll beings, in order to feed them with something called glucose.
  

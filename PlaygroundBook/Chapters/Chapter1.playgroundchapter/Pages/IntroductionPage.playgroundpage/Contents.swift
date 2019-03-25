@@ -1,7 +1,7 @@
 /*:
  # Hello, welcome to the CO2 of things!
  
- Have you ever thought about our **life cycle**? Or pherhaps **our planet life cycle**? One day you were born, you grew up and then you die. But so much happens between this time space right? On earth are happening a lot of things just at this moment.
+ Have you ever thought about our **life cycle**? Or pherhaps **our planet life cycle**? One day you were born, you grew up and then you die. But so much happens between this time space, right? On earth are happening a lot of things just at this moment.
  
  People creating memories, animals living freely, rains falling, sun rising, so many things that you and me can even count it! How the earth manage to maintain all the nature working in this **perfect ballance** that genaretes life?
  
